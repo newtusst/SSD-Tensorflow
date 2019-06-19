@@ -19,6 +19,8 @@ logs/
 *.log
 nohup.out
 
+.idea
+
 ssd-tensorflow.sublime-workspace
 ssd-tensorflow.sublime-project
 

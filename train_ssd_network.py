@@ -242,6 +242,7 @@ def main(_):
                 ssd_net.bboxes_encode(glabels, gbboxes, ssd_anchors)
             batch_shape = [1] + [len(ssd_anchors)] * 3
 
+
             # Training batches and queue.
             r = tf.train.batch(
                 tf_utils.reshape_list([image, gclasses, glocalisations, gscores]),
